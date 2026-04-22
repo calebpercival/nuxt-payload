@@ -1,0 +1,28 @@
+{
+  "name": "nuxt",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "@nuxtjs/seo": "^3.3.0",
+    "@nuxtjs/turnstile": "^1.1.1",
+    "@payloadcms/live-preview": "^3.73.0",
+    "@sendgrid/mail": "^8.1.6",
+    "@vueuse/core": "^14.1.0",
+    "@vueuse/nuxt": "^14.1.0",
+    "nuxt": "^4.3.0",
+    "nuxt-gtag": "^4.1.0",
+    "vue": "^3.5.27",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "sass": "^1.97.3"
+  }
+}
