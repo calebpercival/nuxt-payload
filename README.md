@@ -13,14 +13,9 @@ Prebuilt solution for Nuxt and Payload CMS, including solutions for:
 ## Deployment
 How to deploy on VPS running Ubunutu 24.04 (LTTS) x64
 
-### NPM
-```
-sudo apt update
-
-apt install npm
-```
 
 ### NVM
+
 install nvm
 
 ```
@@ -51,6 +46,10 @@ pm2 startup systemd
 ```
 
 ### Postgres
+
+```
+sudo apt update
+```
 
 install postgres
 
